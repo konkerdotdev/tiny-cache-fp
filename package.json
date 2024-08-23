@@ -1,6 +1,6 @@
 {
   "name": "@konker.dev/tiny-cache-fp",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Konrad Markus <mail@konker.dev>",
   "description": "A basic caching library for Node.js based on Effect-ts",
   "license": "ISC",
