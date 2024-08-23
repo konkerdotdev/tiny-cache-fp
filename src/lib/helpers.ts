@@ -22,11 +22,14 @@ export const chainGetVal =
 /**
  * Convenience helper for setting a cache value and getting the value back
  */
-export const chainSetVal =
-  <V, R>(cache: CacheType<V, R>, key: string, ttl?: number) =>
-  (value: V): P.Effect.Effect<V, CacheError, R> =>
-    P.pipe(
-      cache.setVal(key, value, ttl),
-      P.Effect.map(() => value),
-      P.Effect.mapError(toCacheError)
-    );
+export const chainSetVal = <V, R>(
+  cache: CacheType<V, R>,
+  key: string,
+  value: V,
+  ttl?: number
+): P.Effect.Effect<V, CacheError, R> =>
+  P.pipe(
+    cache.setVal(key, value, ttl),
+    P.Effect.map(() => value),
+    P.Effect.mapError(toCacheError)
+  );
