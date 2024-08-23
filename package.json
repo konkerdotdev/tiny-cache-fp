@@ -15,7 +15,8 @@
   },
   "keywords": [
     "node",
-    "boilerplate",
+    "cache",
+    "momento",
     "typescript",
     "functional-programming",
     "effect-ts"
