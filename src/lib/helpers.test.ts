@@ -33,7 +33,7 @@ describe('helpers', () => {
     });
 
     it('should work as expected', async () => {
-      const actual = unit.chainSetVal(cache)(TEST_KEY, TEST_VALUE);
+      const actual = unit.chainSetVal(cache, TEST_KEY)(TEST_VALUE);
 
       await expect(P.Effect.runPromise(actual)).resolves.toStrictEqual(TEST_VALUE);
     });
