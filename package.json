@@ -24,7 +24,7 @@
   "packageManager": "pnpm@9",
   "peerDependencies": {
     "@gomomento/sdk": "^1.95.0",
-    "@konker.dev/momento-cache-client-effect": "^0.0.2"
+    "@konker.dev/momento-cache-client-effect": "^0.0.7"
   },
   "dependencies": {
     "@effect/schema": "^0.68.23",
