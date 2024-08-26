@@ -18,8 +18,8 @@ importers:
         specifier: ^0.0.16
         version: 0.0.16(@effect/schema@0.68.23(effect@3.5.3))(effect@3.5.3)
       '@konker.dev/momento-cache-client-effect':
-        specifier: ^0.0.2
-        version: 0.0.2
+        specifier: ^0.0.7
+        version: 0.0.7
       '@konker.dev/tiny-error-fp':
         specifier: ^0.0.2
         version: 0.0.2
@@ -630,8 +630,8 @@ packages:
       '@effect/schema': ^0.68.23
       effect: ^3.5.3
 
-  '@konker.dev/momento-cache-client-effect@0.0.2':
-    resolution: {integrity: sha512-qn1SB9QjIUKq1ClPZ/nJVgaEOYpQ7+zf0H3HRWYfJHvT4oAcckdFtvcuuoEM4sCoWV7u19T1u+TpK+mxyJPROQ==}
+  '@konker.dev/momento-cache-client-effect@0.0.7':
+    resolution: {integrity: sha512-2PY4GiQfkWajyd1klyKKTByUdaKuufO9CQ7FlDyXsRe+zCxtcWpP4JN/414px+q7vv+NVVl1f8lsnNjSi0iquw==}
 
   '@konker.dev/tiny-error-fp@0.0.1':
     resolution: {integrity: sha512-6byqMIkw+5UY0S49XE0vrxE8hdajMSynhhmmXUp//CbN/rvPo035cH2W23qVFvzlJzYNbW6EA7aUNzMWIsKZcw==}
@@ -5326,7 +5326,7 @@ snapshots:
       '@effect/schema': 0.68.23(effect@3.5.3)
       effect: 3.5.3
 
-  '@konker.dev/momento-cache-client-effect@0.0.2':
+  '@konker.dev/momento-cache-client-effect@0.0.7':
     dependencies:
       '@aws-sdk/client-s3': 3.637.0
       '@aws-sdk/lib-storage': 3.637.0(@aws-sdk/client-s3@3.637.0)
